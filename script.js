@@ -783,33 +783,52 @@
 
 //---------------------------------online test simulation--------------------------------------------- exercise
 
-// var queAndans = {
-//     1 : ["what is 2+2 ? "],
-//     2 : ["what is 2+4 ? "],
-//     3 : ["what is 2+6 ? "],
-//     4 : ["what is 2+8 ? "],
-//     5 : ["what is 2+10 ? "],
-// }
-// var Answers = []
-// var UserAnswers = []
-// for (i = 1 ; i < 6 ; i++){
-//     UserAnswers[i] = +prompt("type the answer " + queAndans[i])
-// }
-// if (UserAnswers[1] === 4){
-//     Answers.push(UserAnswers[1])
-// }
-// if (UserAnswers[2] === 6){
-//     Answers.push(UserAnswers[2])
-// }
-// if (UserAnswers[3] === 8){
-//     Answers.push(UserAnswers[3])
-// }
-// if (UserAnswers[4] === 10){
-//     Answers.push(UserAnswers[4])
-// }
-// if (UserAnswers[5] === 12){
-//     Answers.push(UserAnswers[5])
-// }
-// console.log("your point is : " + Answers.length)
+// var queAndans = [
+//   { id: 1, que: "what is 2+2 ? ", answer: "4" },
+//   { id: 2, que: "what is 2+4 ? ", answer: "6" },
+//   { id: 3, que: "what is 2+6 ? ", answer: "8" },
+//   { id: 4, que: "what is 2+8 ? ", answer: "10" },
+//   { id: 5, que: "what is 2+1 ? ", answer: "3" },
+// ];
+// var userScore = 0;
+// var userAnswer = "";
+// queAndans.forEach(function (question) {
+//   userAnswer = prompt(question.que + " ? ");
+//   if (userAnswer === question.answer) {
+//     userScore++;
+//   }
+// });
+// alert(userScore);
 
+//---------------------------------calculator project------------------------------------------------ exercise
 
+// var userFirstNumber = +prompt("enter the first number");
+// var userSecondNumber = +prompt("enter the second number");
+// var userMissionWanted = prompt(
+//   "what u wanna do with it \n 1) +   2) -   3) *   4) /"
+// );
+
+// if (userMissionWanted === "1") {
+//   sum(userFirstNumber, userSecondNumber);
+// } else if (userMissionWanted === "2") {
+//   minus(userFirstNumber, userSecondNumber);
+// } else if (userMissionWanted === "3") {
+//   multiply(userFirstNumber, userSecondNumber);
+// } else if (userMissionWanted === "4") {
+//   devide(userFirstNumber, userSecondNumber);
+// } else {
+//   alert("the selected mission is undefinded");
+// }
+
+// function sum(userFirstNumber, userSecondNumber) {
+//   alert(userFirstNumber + userSecondNumber);
+// }
+// function minus(userFirstNumber, userSecondNumber) {
+//   alert(userFirstNumber - userSecondNumber);
+// }
+// function multiply(userFirstNumber, userSecondNumber) {
+//   alert(userFirstNumber * userSecondNumber);
+// }
+// function devide(userFirstNumber, userSecondNumber) {
+//   alert(userFirstNumber / userSecondNumber);
+// }
