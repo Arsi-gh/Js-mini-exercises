@@ -832,3 +832,43 @@
 // function devide(userFirstNumber, userSecondNumber) {
 //   alert(userFirstNumber / userSecondNumber);
 // }
+
+//---------------------------------User forgoten password-------------------------------------------- exercise
+
+// var usersInfo = [
+//     {id : 1 , name : "Arsalan" , password : "Arsi2003"},
+//     {id : 2 , name : "Ali" , password : "Ali@2052"},
+//     {id : 3 , name : "hasan" , password : "has@rt"},
+//     {id : 4 , name : "Hossein" , password : "Hossein$banky"},
+//     {id : 5 , name : "babak" , password : "babak@rainbo"},
+// ]
+// var userPass = prompt("enter your username")
+// var finduserPass = usersInfo.find(function(user){
+//     return userPass === user.name
+// })
+// if(finduserPass === undefined){
+//     alert("you didnt sign up in the website")
+// } else {
+//     alert("Your Password is : " + finduserPass.password )
+// }
+
+//---------------------------------User forgoten password-------------------------------------------- exercise
+
+// var userMinuts = prompt("enter the amount of minutes")
+// var userSeconds = prompt("enter the amount of seconds")
+// var timer = setInterval(function(){
+//     if (userSeconds === -1){
+//         userMinuts--
+//         userSeconds = 59
+//     }
+//     if (userMinuts === 0 && userSeconds === 0){
+//         clearInterval(timer)
+//     }
+//     console.log("Timer : " + userMinuts + " : " + userSeconds)
+//     userSeconds--
+// }, 1000)
+
+//--------------------------------------------------------------------------------------------------- exercise
+
+
+
